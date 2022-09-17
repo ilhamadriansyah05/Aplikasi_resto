@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('main');
 });
+
+Route::get('/manager', function () {
+    return view('manager.manager');
+});
+Route::get('/kategori', function () {
+    return view('kategori.kategori');
+});
